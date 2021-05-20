@@ -1,14 +1,16 @@
 import React from 'react';
-import Cats from './Cats.jsx';
+import GitCommands from './GitCommands.jsx';
 
- function App(){
+ export default function App () {
+
     return (
-      <div>
-        <h1 className={title}>App.js is connected and working!</h1>
-        <Cats />
-      </div>
+      <>
+        <button>-</button>
+        <span>0</span>
+        <button>+</button>
+      </>
     )
   }
-export default App;
+
 
 
